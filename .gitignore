@@ -1,3 +1,4 @@
 .*
 !/.gitignore
 rsconnect/*
+.Rproj.user
