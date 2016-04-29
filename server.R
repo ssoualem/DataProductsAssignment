@@ -28,7 +28,10 @@ shinyServer(function(input, output) {
                  options=list(region="US", 
                               displayMode="regions", 
                               resolution="provinces",
-                              width=600, height=400))
+                              #width=600, height=400,
+                              width="100%", height="100%",
+                              forceIFrame='TRUE'))
+    # forceIFrame option because of missing scale on the plot when uploading to shinyapps.io
   })
   
   # Statistics information

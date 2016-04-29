@@ -14,7 +14,7 @@ shinyUI(pageWithSidebar(
 
   ),
   mainPanel(
-    h1(textOutput("plotTitle")), 
+    h1(textOutput("plotTitle"), align = "center"), 
     htmlOutput("gvis")
   )
 )
